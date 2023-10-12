@@ -1,13 +1,13 @@
 package go_twing_identity
 
 import (
-	"github.com/twingdev/go-twing-identity/crypto"
 	"go.dedis.ch/kyber/v3"
 	"go.dedis.ch/kyber/v3/group/edwards25519"
 )
 
+type TypeName interface{}
 type Identity struct {
-	*crypto.Keys
+	TypeName
 }
 
 func NewIdentity() *Identity {
