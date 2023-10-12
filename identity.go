@@ -1,7 +1,7 @@
 package go_twing_identity
 
 import (
-	"go-twing-identity/crypto"
+	"github.com/twingdev/go-twing-identity/crypto"
 	"go.dedis.ch/kyber/v3"
 	"go.dedis.ch/kyber/v3/group/edwards25519"
 )
